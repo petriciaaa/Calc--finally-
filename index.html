@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="calc hidden" id="calc">
+
+   
+        <input class="calc__input input__style" type="input" id="input" >
+
+
+        <div class="first__row">
+            <button class='calc__btn calc__btn__AC' id="reset"> AC</button>
+            <button class='calc__btn calc__btn__AC'> ()</button>
+            <button class='calc__btn calc__btn__AC'' id="percent" value="%"> |X|</button>
+            <button class='calc__btn calc__btn__action' id="division" value="/"> /</button>
+
+        </div>
+
+        <div class="second__row">
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9" value="7" > 7</button>
+            <button class='calc__btn calc__btn__numb ' data-name="btn_0-9" value="8"> 8</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="9" > 9</button>
+            <button class='calc__btn calc__btn__action' id="multiply" value="*"> *</button>
+        </div>
+
+        <div class="fird__row">
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="4">  4</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="5"> 5</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="6"> 6</button>
+            <button class='calc__btn calc__btn__action' id="minus"> -</button>
+        </div>
+
+        <div class="fourth__row">
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="1"> 1</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="2"> 2</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="3"> 3</button>
+            <button class='calc__btn calc__btn__action' id="plus"> +</button>
+        </div>
+
+        <div class="fifth__row">
+            <button class='calc__btn calc__btn__0 ' data-name="btn_0-9"value="0"> 0</button>
+            <button class='calc__btn calc__btn__numb' data-name="btn_0-9"value="."> .</button>
+            <button class='calc__btn calc__btn__action' id="equal"> =</button>
+        </div>
+
+
+    </div>
+
+    <div class="ivent">
+        <button class="ivent__button" id="ivent__button"> Go calc</button>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
